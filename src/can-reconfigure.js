@@ -1,7 +1,7 @@
 export const canReconfigure = (from, to) => {
   if (typeof from !== "string") throw new Error("from must be a string");
   if (typeof to !== "string") throw new Error("to must be a string");
-
+ 
   const isSameLength = from.length === to.length;
   if (!isSameLength) return false;
 

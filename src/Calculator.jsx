@@ -10,7 +10,7 @@ export const Calculator = () => {
   const [value, setValue] = useState("");
 
   const createHandleClick = (op) => () => setValue(value.concat(op));
-
+ 
   return (
     <div>
       <h1>Calculator</h1>
